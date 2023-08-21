@@ -1,0 +1,76 @@
+.logo .navbar a{
+    color:white;
+    
+   }
+   
+   .header .navbar .logo{
+       padding-top: 0.5rem;
+       float: left;
+       padding-left: 9rem;
+       font-size:x-large
+       
+   }
+   
+   .header .navbar .nav-items{
+       float: right;
+   }
+   
+   .header .navbar .nav-item{
+       padding-top: 1rem;
+       display: inline-block;
+       padding: 0.5rem;
+   }
+   body{
+   background: url('../img/travel-image3.jpg');
+   }
+
+
+
+.wrapper{
+    padding-left: 100px;
+    font-size: large;
+}
+
+
+
+
+.form{
+    margin-top: -2rem;
+    float: right;
+    padding-left: 800px;
+    padding-top: -20px;
+    
+    
+}
+
+.Username .passwo{
+    width: auto;
+}
+
+.form label{
+    display: block;
+
+}
+
+.contact input {
+    padding: 0.5rem;
+    width: 80%;
+}
+
+.form-btn{
+    background-color: aqua;
+    font-size:large;
+    width: 85%;
+    height: 30px;
+}
+
+select{
+    width: 85%;
+    height: 30px;
+}
+
+option{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}

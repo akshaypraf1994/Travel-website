@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    font-family: "Montserrt",sans-serif;
+}
+
+.header{
+    height: 95vh;
+    background: url('../img/showcase-photo1.jpg');
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.header .logo,
+.header .navbar a{
+ color:white;
+ 
+
+}
+
+
+.navbar .logo{
+    padding-top: 0.5rem;
+    float: left;
+    padding-left: 9rem;
+    font-size:x-large;
+   padding-top: 30px;
+}
+
+.navbar .nav-items{
+    float: right;
+}
+
+.navbar .nav-item{
+    padding-top: 1rem;
+    display: inline-block;
+    padding: 0.5rem;
+    padding-top: 30px;
+}
+
+.header-aline{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    }
+
+.textlight{
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-size-adjust: 5rems;
+}
+
+.container2{
+
+    padding-top: 250px;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    text-transform: uppercase;
+    padding-top: 1px;
+}
+
+.btn-primary{
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   border-radius: 50px;
+}
+
+
+.showcase{
+    background-color: rgb(232, 235, 155);
+    
+    padding-left: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    padding-right: 10rem;
+}
+
+.row{
+    height: 300px;
+    
+}
+.row2{
+    margin-top: -2rem;
+}
+
+.row1{
+    margin-bottom: 5rem;
+}
+
+.row1 .mg-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+}
+
+.row2 .mg-box, .row1 .text-box{
+    float: right;
+    width: 50%;
+
+}
+
+.row .mg-box{
+    height: 100%;
+}
+.row .text-box{
+    height: 100%;
+    padding:3rem;
+    background-color: white;
+}
+
+
+.row .mg-box img{
+    display: inline-block;
+    height: 100%;
+    width: 100%
+    
+}
+
+p{
+    padding-top: 0.5rem;
+}
+
+.btn{
+    padding-top:5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    border: 2px solid rgb(133, 42, 42);
+    margin-top: 10px;
+    border-radius: 50px;
+    color: red;
+}
+
+.ng{
+   background-color: aqua;
+}
+
+
+
+
